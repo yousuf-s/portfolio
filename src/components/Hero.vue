@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <section class="home d-flex flex-column justify-content-center align-items-center text-center bg-light vh-100">
         <div class="word-cloud position-absolute w-100 h-100"></div>
@@ -11,11 +12,11 @@
     </section>
 </template>
 
-<script setup>
-import { ref, onMounted } from 'vue';
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
 
 const typingText = ref("");
-const roles = ['Front-End Developer', 'Vue.js Enthusiast', 'Software Engineer'];
+const roles = ["Front-End Developer", "Vue.js Enthusiast", "Software Engineer"];
 let index = 0;
 
 const typeEffect = async () => {

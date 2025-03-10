@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <section class="container py-5">
         <h2 class="text-center">About Me</h2>

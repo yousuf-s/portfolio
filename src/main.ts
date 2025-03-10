@@ -1,11 +1,11 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import router from './router';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import './assets/styles.css';
+import "./assets/styles.css";
 
-createApp(App).use(router).mount('#app');
+createApp(App).use(router).mount("#app");
 
 // Portfolio Structure Overview
 // - Home Section: Light grey background with word cloud effect and animated text.
