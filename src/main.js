@@ -4,9 +4,7 @@ import router from "./router";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./assets/styles.css";
-
 createApp(App).use(router).mount("#app");
-
 // Portfolio Structure Overview
 // - Home Section: Light grey background with word cloud effect and animated text.
 // - About, Skills, Experience, Projects, Education, Contact: Each section with different light background colors.
