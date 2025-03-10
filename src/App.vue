@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import Home from "./views/Home";
-import Navbar from "./components/Navbar";
+import Home from "./views/Home.vue";
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <style>
