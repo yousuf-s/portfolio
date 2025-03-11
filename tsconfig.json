@@ -9,7 +9,9 @@
     "skipLibCheck": true,
     "noEmit": true, // Important to prevent TypeScript from emitting .js files
     "isolatedModules": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": [
