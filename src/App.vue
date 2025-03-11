@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import Home from "./views/Home.vue";
-import Navbar from "@/components/Navbar.vue";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <style>
