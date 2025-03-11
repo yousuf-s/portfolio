@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": false,
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "jsx": "preserve",
+    "strict": true,
     "skipLibCheck": true,
-    "module": "ES2020", // or "ESNext"
-    "target": "ES2020" // or "ESNext"
-  }
+    "noEmit": true, // Important to prevent TypeScript from emitting .js files
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "public",
+    "src/**/*.vue.js" // Exclude generated files like `.vue.js`
+  ]
 }
