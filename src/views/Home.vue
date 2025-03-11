@@ -1,6 +1,5 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="bg-white w-100 h-100">
+  <div class="bg-white w-full h-full">
     <Hero />
     <About />
   </div>
@@ -11,5 +10,4 @@ import Hero from "../components/Hero.vue";
 import About from "../components/About.vue";
 </script>
 
-<style>
-</style>
+<style></style>

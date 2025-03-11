@@ -1,24 +1,36 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <nav class="navbar navbar-expand-lg fixed-top" :class="{ 'bg-transparent': !isScrolled, 'bg-light': isScrolled }">
-        <div class="container justify-content-center">
-            <ul class="navbar-nav">
-                <li class="nav-item" v-for="section in sections" :key="section">
-                    <a class="nav-link">{{ section }}</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="fixed top-0 w-full z-10 bg-white">
+    <div class="container mx-auto flex justify-center">
+      <ul class="flex space-x-7">
+        <li v-for="section in sections" :key="section" class="nav-item">
+          <a class="font-semibold text-gray-600 group cursor-pointer">
+            <span
+              class="after:absolute after:bg-neutral-900 after:bottom-2 after:h-[3px] flex group-hover:after:w-full items-center p-[18px_0px] relative"
+              >{{ section }}</span
+            >
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 
-const sections = ["Home", "About", "Skills", "Experience", "Projects", "Education", "Contact"];
+const sections = [
+  "Home",
+  "About",
+  "Skills",
+  "Experience",
+  "Projects",
+  "Education",
+  "Contact",
+];
 const isScrolled = ref(false);
 
 const handleScroll = () => {
-    isScrolled.value = window.scrollY > 50;
+  isScrolled.value = window.scrollY > 50;
 };
 
 onMounted(() => window.addEventListener("scroll", handleScroll));
