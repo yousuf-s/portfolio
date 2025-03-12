@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white w-full h-full">
+  <div>
     <Hero />
     <About />
   </div>
