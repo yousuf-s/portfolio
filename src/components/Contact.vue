@@ -29,7 +29,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-mail w-6 h-6 text-gray-900 mr-3"
+                class="lucide lucide-mail w-5 h-5 text-gray-500 mr-3"
               >
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -51,7 +51,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-phone w-6 h-6 text-gray-900 mr-3"
+                class="lucide lucide-phone w-5 h-5 text-gray-500 mr-3"
               >
                 <path
                   d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
@@ -63,7 +63,7 @@
                 >+91 7416051235</a
               >
             </li>
-            <li class="flex items-center">
+            <li class="flex items-center hover:text-gray-900">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -74,7 +74,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-linkedin w-6 h-6 text-gray-900 mr-3"
+                class="lucide lucide-linkedin w-5 h-5 text-gray-500 mr-3"
               >
                 <path
                   d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
@@ -85,11 +85,11 @@
               <a
                 href="https://www.linkedin.com/in/syed-yousuf-a88b54229/"
                 target="_blank"
-                class="hover:text-gray-900 transition duration-300"
+                class="transition duration-300"
                 >Syed Yousuf - Owfis Stark.ai</a
               >
             </li>
-            <li class="flex items-center">
+            <li class="flex items-center hover:text-gray-900">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -100,14 +100,20 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-map-pin w-6 h-6 text-gray-900 mr-3"
+                class="lucide lucide-map-pin w-5 h-5 text-gray-500 mr-3"
               >
                 <path
                   d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
                 />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <span class="text-gray-900">Hyderabad, India</span>
+              <a
+                href="https://www.google.com/maps?q=Hyderabad,India"
+                target="_blank"
+                class="transition duration-300"
+              >
+                Hyderabad, India
+              </a>
             </li>
           </ul>
         </div>
