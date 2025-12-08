@@ -83,10 +83,10 @@
                 <circle cx="4" cy="4" r="2" />
               </svg>
               <a
-                href="https://www.linkedin.com/in/syed-yousuf-a88b54229/"
+                href="https://www.linkedin.com/in/yousuf-syed-dev/"
                 target="_blank"
                 class="transition duration-300"
-                >Syed Yousuf - Owfis Stark.ai</a
+                >Syed Yousuf</a
               >
             </li>
             <li class="flex items-center hover:text-gray-900">

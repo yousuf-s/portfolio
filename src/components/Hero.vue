@@ -19,7 +19,7 @@ import { ref, onMounted } from "vue";
 
 const typingText = ref("");
 const roles = [
-  "Syed Yousuf",
+  "Yousuf Syed",
   "Front-End Developer",
   "Vue.js Enthusiast",
   "Software Engineer",

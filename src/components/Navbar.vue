@@ -133,7 +133,6 @@ const sections = [
   { id: "about", name: "About" },
   { id: "skills", name: "Skills" },
   { id: "experience", name: "Experience" },
-  { id: "projects", name: "Projects" },
   { id: "education", name: "Education" },
   { id: "contact", name: "Contact" },
 ];
