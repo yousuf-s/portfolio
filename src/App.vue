@@ -1,8 +1,11 @@
 <template>
-  <header>
+  <header role="banner">
     <Navbar />
   </header>
-  <Home />
+
+  <main id="main-content">
+    <Home />
+  </main>
 </template>
 
 <script setup lang="ts">

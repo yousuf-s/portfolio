@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary Meta Tags -->
     <title>
-      Yousuf Syed | Frontend Engineer – Vue.js, React.js & TypeScript Developer
+      Yousuf Syed | Frontend Developer – Vue.js, React.js & TypeScript Developer
     </title>
+    <meta
+      name="description"
+      content="Portfolio of Syed Yousuf, a Frontend Engineer with 4+ years of experience building scalable and high-performance web applications using Vue.js, React.js, and TypeScript."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Engineer, Vue.js developer, React.js developer, TypeScript developer, Web developer portfolio, JavaScript engineer"
+    />
+    <link rel="canonical" href="https://yousuf-syed.vercel.app/" />
+
+    <!-- Favicon + Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
@@ -15,10 +31,29 @@
     />
     <meta
       property="og:description"
-      content="Portfolio of Syed Yousuf, a Frontend Engineer with 4 years of experience building scalable, high-performance web applications using Vue.js, React.js, and TypeScript."
+      content="Explore my projects and experience as a Frontend Engineer specializing in Vue.js, React.js, and TypeScript."
     />
-    <meta property="og:image" content="/og-image.png" />
+    <meta
+      property="og:image"
+      content="https://yousuf-syed.vercel.app/og-image.png"
+    />
     <meta property="og:url" content="https://yousuf-syed.vercel.app/" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Yousuf Syed | Frontend Engineer – Vue.js, React.js & TypeScript Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Frontend Engineer specializing in Vue.js, React.js & TypeScript. Explore my portfolio, projects, and skills."
+    />
+
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -33,16 +68,27 @@
         ]
       }
     </script>
+
+    <!-- WebSite Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Yousuf Syed Portfolio",
+        "url": "https://yousuf-syed.vercel.app/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://yousuf-syed.vercel.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <noscript>
-      <strong
-        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
-        properly without JavaScript enabled. Please enable it to
-        continue.</strong
-      >
+      <strong>This website works best with JavaScript enabled.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

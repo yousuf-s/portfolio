@@ -2,13 +2,17 @@
   <section
     id="home"
     class="bg-gray-50 flex flex-col justify-center items-center text-center h-screen px-6"
+    aria-label="Hero Introduction Section"
   >
     <h1 class="text-4xl md:text-6xl font-bold">
       Hello, I am
       <div
-        class="flex items-center justify-center h-full relative bg-gray-200 px-4 py-2 rounded-md w-[50rem] mt-3"
+        class="flex items-center justify-center h-full bg-gray-200 px-4 py-2 rounded-md mt-3 w-[25rem] md:w-[44rem]"
+        aria-label="Dynamic role typing effect"
       >
-        <span class="absolute blinking-cursor">{{ typingText }}</span>
+        <span class="absolute blinking-cursor">{{
+          "Front-End Developer"
+        }}</span>
       </div>
     </h1>
   </section>

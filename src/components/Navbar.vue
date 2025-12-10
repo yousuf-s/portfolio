@@ -1,12 +1,16 @@
 <template>
   <nav
     class="fixed top-0 w-full z-10 bg-white shadow-md px-5 lg:px-10 py-3 transition-all"
+    role="navigation"
+    aria-label="Primary Navigation"
   >
     <div class="container mx-auto flex justify-between items-center">
       <div
         class="text-2xl font-bold text-gray-900 cursor-pointer flex gap-3 items-center"
         @click="scrollToSection('home')"
         title="Syed Yousuf | Frontend Developer"
+        role="link"
+        aria-label="Go to Home section"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

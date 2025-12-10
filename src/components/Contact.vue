@@ -123,26 +123,31 @@
           <h3 class="text-2xl font-semibold text-gray-900 mb-4">
             Send a Message
           </h3>
-          <form @submit.prevent="handleSubmit">
+          <form @submit.prevent="handleSubmit" aria-label="Contact Form">
             <div class="mb-4">
-              <label class="block text-gray-900 mb-1">Name</label>
+              <label for="name" class="block text-gray-900 mb-1">Name</label>
               <input
+                id="name"
                 type="text"
                 v-model="form.name"
                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
               />
             </div>
             <div class="mb-4">
-              <label class="block text-gray-900 mb-1">Email</label>
+              <label for="email" class="block text-gray-900 mb-1">Email</label>
               <input
+                id="email"
                 type="email"
                 v-model="form.email"
                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
               />
             </div>
             <div class="mb-4">
-              <label class="block text-gray-900 mb-1">Message</label>
+              <label for="message" class="block text-gray-900 mb-1"
+                >Message</label
+              >
               <textarea
+                id="message"
                 v-model="form.message"
                 rows="4"
                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
@@ -151,9 +156,17 @@
             <button
               type="submit"
               class="w-full bg-gray-900 text-white py-2 rounded-lg hover:bg-gray-700 transition duration-300"
+              :disabled="loading"
             >
-              Send Message
+              {{ loading ? "Sending..." : "Send Message" }}
             </button>
+
+            <p v-if="successMessage" class="text-green-600 mt-3">
+              {{ successMessage }}
+            </p>
+            <p v-if="errorMessage" class="text-red-600 mt-3">
+              {{ errorMessage }}
+            </p>
           </form>
         </div>
       </div>
@@ -162,7 +175,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
+import emailjs from "emailjs-com";
 
 const form = ref({
   name: "",
@@ -170,7 +184,57 @@ const form = ref({
   message: "",
 });
 
+const loading = ref(false);
+const successMessage = ref("");
+const errorMessage = ref("");
+const MAX_SENDS = 3;
+
+const sendCount = ref(0);
+
+// Load existing count from localStorage
+onMounted(() => {
+  const stored = localStorage.getItem("contact_send_count");
+  sendCount.value = stored ? Number(stored) : 0;
+});
+
 const handleSubmit = () => {
-  alert("Message sent successfully! (For demo purposes)");
+  // Check send limit
+  if (sendCount.value >= MAX_SENDS) {
+    errorMessage.value = "You have reached the maximum number of messages (3).";
+    return;
+  }
+
+  loading.value = true;
+  successMessage.value = "";
+  errorMessage.value = "";
+
+  const serviceID = "service_dpirxvl";
+  const templateID = "template_hwshw7o";
+  const publicKey = "fXkqsWbB5PERUkvza";
+
+  emailjs
+    .send(serviceID, templateID, form.value, publicKey)
+    .then(() => {
+      successMessage.value = "Your message has been sent successfully!";
+      loading.value = false;
+
+      // Increase counter
+      sendCount.value++;
+      localStorage.setItem("contact_send_count", String(sendCount.value));
+
+      // Clear form
+      form.value = { name: "", email: "", message: "" };
+    })
+    .catch(() => {
+      errorMessage.value = "Failed to send message. Please try again later.";
+      loading.value = false;
+    })
+    .finally(() => {
+      const timeout = setTimeout(() => {
+        successMessage.value = "";
+        errorMessage.value = "";
+        clearTimeout(timeout);
+      }, 3000);
+    });
 };
 </script>

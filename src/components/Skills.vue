@@ -3,6 +3,8 @@
     id="skills"
     class="w-full py-20 px-6 md:px-12 lg:px-24 bg-white"
     aria-labelledby="skills-title"
+    itemscope
+    itemtype="https://schema.org/ItemList"
   >
     <!-- Section Heading -->
     <div class="text-center mb-14">

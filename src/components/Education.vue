@@ -24,6 +24,11 @@
       itemscope
       itemtype="https://schema.org/EducationalOrganization"
     >
+      <meta itemprop="address" content="Kadapa, Andhra Pradesh, India" />
+      <meta
+        itemprop="degree"
+        content="Bachelor of Technology in Civil Engineering"
+      />
       <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="name">
         Annamacharya Institute of Technology and Sciences
       </h3>

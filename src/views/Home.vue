@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <Hero />
     <About />
     <Divider />
@@ -9,7 +9,7 @@
     <Divider />
     <Education />
     <Contact />
-  </div>
+  </main>
 </template>
 
 <script setup lang="ts">

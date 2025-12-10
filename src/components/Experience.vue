@@ -26,6 +26,8 @@
         itemscope
         itemtype="https://schema.org/JobPosting"
       >
+        <meta itemprop="employmentType" content="Full-time" />
+        <meta itemprop="industry" content="Software Development" />
         <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="title">
           Associate Consultant
         </h3>
