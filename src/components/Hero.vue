@@ -10,9 +10,7 @@
         class="flex items-center justify-center h-full bg-gray-200 px-4 py-2 rounded-md mt-3 w-[25rem] md:w-[44rem]"
         aria-label="Dynamic role typing effect"
       >
-        <span class="absolute blinking-cursor">{{
-          "Front-End Developer"
-        }}</span>
+        <span class="absolute blinking-cursor">{{ typingText }}</span>
       </div>
     </h1>
   </section>
