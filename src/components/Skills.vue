@@ -44,14 +44,31 @@
           Frameworks & Libraries
         </h3>
         <ul class="space-y-2 text-gray-700">
-          <li>Vue.js</li>
-          <li>React.js</li>
-          <li>Nuxt.js</li>
-          <li>Vuex</li>
-          <li>Pinia</li>
-          <li>Redux</li>
-          <li>Tailwind CSS</li>
-          <li>Bootstrap</li>
+          <span class="block mb-4">
+            <p
+              class="text-sm font-semibold text-gray-500 mb-2 uppercase tracking-wide"
+            >
+              Frontend
+            </p>
+            <li>Vue.js</li>
+            <li>Nuxt.js</li>
+            <li>Nuxt.js</li>
+            <li>Vuex</li>
+            <li>Pinia</li>
+            <li>Vuex</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+          </span>
+
+          <span>
+            <p
+              class="text-sm font-semibold text-gray-500 mb-2 uppercase tracking-wide"
+            >
+              Backend
+            </p>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </span>
         </ul>
       </article>
 
@@ -65,6 +82,10 @@
           <li>Git & Version Control</li>
           <li>RESTful APIs</li>
           <li>Agile / Scrum</li>
+          <li>Axios</li>
+          <li>Fetch API</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
         </ul>
       </article>
 
@@ -75,12 +96,19 @@
           Core Competencies
         </h3>
         <ul class="space-y-2 text-gray-700">
-          <li>Single Page Applications (SPA)</li>
-          <li>Component Architecture</li>
-          <li>UI/UX Implementation</li>
+          <li>Full Stack Development</li>
+          <li>SPA Architecture</li>
+          <li>SSR with Nuxt.js</li>
+          <li>Component-Driven Design</li>
+          <li>State Management</li>
+          <li>RESTful API Design & Integration</li>
           <li>Performance Optimization</li>
+          <li>Cross-Browser Development</li>
+          <li>Agile/Scrum Methodologies</li>
+          <li>Code Reviews & Mentoring</li>
+          <li>Debugging & Problem Solving</li>
+          <li>AI-Assisted Development & Prompt Engineering</li>
           <li>Responsive Design</li>
-          <li>Cross-Browser Compatibility</li>
         </ul>
       </article>
     </div>

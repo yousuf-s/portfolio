@@ -29,7 +29,7 @@
         <meta itemprop="employmentType" content="Full-time" />
         <meta itemprop="industry" content="Software Development" />
         <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="title">
-          Associate Consultant
+          Associate Consultant — Full Stack Developer
         </h3>
         <p class="text-gray-700 font-medium" itemprop="hiringOrganization">
           Infosys, Hyderabad
@@ -40,20 +40,20 @@
 
         <ul class="space-y-3 text-gray-700 leading-relaxed">
           <li>
-            • Architecting and developing enterprise-level front-end solutions
-            using Vue.js and React.js.
+            • Architecting and developing enterprise-grade full stack
+            applications using Vue.js and Nuxt.js with SSR optimization.
           </li>
           <li>
-            • Collaborating with product and backend teams to convert business
-            requirements into scalable implementations.
+            • Designing and integrating RESTful APIs with Node.js/Express.js to
+            ensure seamless data flow across large-scale systems.
           </li>
           <li>
-            • Ensuring code quality, maintainability, and performance through
-            modern engineering standards.
+            • Driving performance improvements using code splitting, lazy
+            loading, and memoization to maintain sub-2s load times.
           </li>
           <li>
-            • Mentoring junior developers and conducting code reviews to
-            maintain project-wide consistency.
+            • Leading code reviews and mentoring developers on Vue.js,
+            TypeScript, and scalable component architecture.
           </li>
         </ul>
       </article>
@@ -65,10 +65,10 @@
         itemtype="https://schema.org/JobPosting"
       >
         <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="title">
-          Software Engineer I
+          Software Engineer I — Full Stack Developer
         </h3>
         <p class="text-gray-700 font-medium" itemprop="hiringOrganization">
-          Owfis Jobpe Technologies, Hyderabad
+          Owfis Stark.ai, Hyderabad
         </p>
         <p class="text-sm text-gray-500 mb-4">
           <time itemprop="datePosted">Jan 2023</time> – Mar 2025
@@ -76,20 +76,20 @@
 
         <ul class="space-y-3 text-gray-700 leading-relaxed">
           <li>
-            • Led UI development for AI-powered web applications, enhancing user
-            engagement and productivity.
+            • Led end-to-end development of AI-powered applications using
+            Vue.js, Nuxt.js, and TypeScript with SSR-optimized architecture.
           </li>
           <li>
-            • Built reusable component libraries using Vue.js and TypeScript to
-            speed up development cycles.
+            • Built a Chrome Extension with Node.js/Express.js automation,
+            boosting team productivity by 40%.
           </li>
           <li>
-            • Optimized performance through code splitting, lazy loading, and
-            bundle size reduction.
+            • Developed a reusable component library across modules, reducing
+            feature delivery time by 30%.
           </li>
           <li>
-            • Collaborated cross-functionally to ensure seamless API integration
-            and high application stability.
+            • Improved performance by 50% through code splitting, lazy loading,
+            and optimized bundle strategies.
           </li>
         </ul>
       </article>
@@ -101,7 +101,7 @@
         itemtype="https://schema.org/JobPosting"
       >
         <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="title">
-          Software Engineer
+          Software Engineer — Frontend Developer
         </h3>
         <p class="text-gray-700 font-medium" itemprop="hiringOrganization">
           Mantra, Hyderabad
@@ -112,20 +112,20 @@
 
         <ul class="space-y-3 text-gray-700 leading-relaxed">
           <li>
-            • Developed responsive, cross-browser compatible web interfaces
-            using Vue.js.
+            • Developed responsive, cross-browser web applications using Vue.js
+            and ES6+ with Vuex for scalable state management.
           </li>
           <li>
-            • Implemented Vuex-based state management to handle large, dynamic
-            datasets.
+            • Translated Figma designs into pixel-perfect interfaces and
+            improved load time by 25% using lazy loading and asset optimization.
           </li>
           <li>
-            • Converted Figma designs into pixel-perfect, production-ready
-            interfaces.
+            • Collaborated with backend teams on RESTful API integration and
+            agile delivery cycles.
           </li>
           <li>
-            • Improved front-end architecture and contributed to coding
-            standardization.
+            • Contributed to frontend architecture and established Vue.js coding
+            standards across the team.
           </li>
         </ul>
       </article>
@@ -137,27 +137,31 @@
         itemtype="https://schema.org/JobPosting"
       >
         <h3 class="text-2xl font-semibold text-gray-900 mb-2" itemprop="title">
-          Software Developer Intern
+          Application Developer — Backend Developer
         </h3>
         <p class="text-gray-700 font-medium" itemprop="hiringOrganization">
-          Talentsprint Pvt. Ltd, Hyderabad
+          VNV Logixpace Pvt. Ltd, Hyderabad
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          <time itemprop="datePosted">Jan 2022</time> – May 2022
+          <time itemprop="datePosted">Feb 2021</time> – May 2022
         </p>
 
         <ul class="space-y-3 text-gray-700 leading-relaxed">
           <li>
-            • Built interactive web applications using React.js during hands-on
-            training.
+            • Built and maintained Node.js/Express.js backend services and
+            RESTful APIs for dynamic frontend consumption.
           </li>
           <li>
-            • Assisted senior developers with feature implementations and
-            debugging tasks.
+            • Designed MySQL schemas and optimized queries to support core
+            business logic and performance.
           </li>
           <li>
-            • Learned version control, component-based architecture & responsive
-            UI practices.
+            • Implemented server-side validation, middleware, and error handling
+            to improve API reliability and security.
+          </li>
+          <li>
+            • Collaborated with frontend teams to define API contracts and
+            ensured smooth integration across systems.
           </li>
         </ul>
       </article>

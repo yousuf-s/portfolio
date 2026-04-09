@@ -8,7 +8,7 @@
       About Me
     </h2>
 
-    <p
+    <!-- <p
       class="text-center text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-12"
     >
       A dynamic and results-driven Frontend Engineer with a passion for crafting
@@ -18,37 +18,51 @@
       <span class="font-semibold">interactive & responsive</span> digital
       experiences using modern technologies that enhance user engagement and
       performance.
-    </p>
+    </p> -->
 
+    <p
+      class="text-center text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-12"
+    >
+      I’m a
+      <span class="font-semibold"
+        >Full Stack Developer with 5+ years of experience</span
+      >
+      building scalable, high-performance web applications using
+      <span class="font-semibold">Vue.js, Nuxt.js, Node.js, and TypeScript</span
+      >. I specialize in crafting end-to-end solutions—from responsive,
+      user-friendly interfaces to robust backend systems—focused on performance,
+      maintainability, and real-world impact.
+    </p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Left Card -->
       <div class="bg-gray-50 p-8 rounded-xl shadow-md">
         <h3 class="text-2xl font-semibold mb-4">Experience & Expertise</h3>
         <ul class="space-y-3 text-gray-700">
           <li>
-            <span class="font-semibold">Associate Consultant</span> at Infosys,
-            Hyderabad.
-          </li>
-          <li>
-            <span class="font-semibold">Former Software Engineer I</span> at
-            Owfis Jobpe Technologies Pvt. Ltd.
-          </li>
-          <li>
-            Developing scalable, high-performance web applications using
-            <span class="font-semibold"
-              >Vue.js, React.js, TypeScript, and modern JS frameworks</span
-            >.
+            <span class="font-semibold">5+ years</span> delivering full stack
+            solutions across enterprise and startup environments.
           </li>
           <li>
             Strong expertise in
-            <span class="font-semibold">UI performance optimization</span>,
-            component architecture, and reusable web components.
+            <span class="font-semibold">SPA & SSR architecture (Nuxt.js)</span>,
+            component-driven design, and scalable frontend systems.
           </li>
           <li>
-            Skilled in
+            Proven track record of improving performance with
+            <span class="font-semibold">50% faster page loads</span>
+            using code splitting, lazy loading, and optimization techniques.
+          </li>
+          <li>
+            Experience designing and integrating
             <span class="font-semibold"
-              >responsive design, state management (Pinia, Vuex, Redux)</span
-            >, and cross-browser compatibility.
+              >RESTful APIs with Node.js & Express.js</span
+            >.
+          </li>
+          <li>
+            Strong foundation in
+            <span class="font-semibold"
+              >TypeScript, state management (Vuex/Pinia)</span
+            >, and cross-browser development.
           </li>
         </ul>
       </div>
@@ -60,27 +74,32 @@
         </h3>
         <ul class="space-y-3 text-gray-700">
           <li>
-            Exceptional <span class="font-semibold">teamwork</span> and
-            cross-functional communication skills.
+            Delivered a
+            <span class="font-semibold">40% boost in team productivity</span> by
+            building automation tools using Node.js.
           </li>
           <li>
-            Experience working across the full
-            <span class="font-semibold">product lifecycle</span>—from planning
-            and architecture to development and deployment.
+            Reduced feature delivery time by
+            <span class="font-semibold">30%</span> through reusable component
+            architecture.
           </li>
           <li>
-            Recognized for strong
-            <span class="font-semibold">problem-solving skills</span> and
-            delivering clean, maintainable, and scalable solutions.
+            Experienced in working across the full
+            <span class="font-semibold">product lifecycle</span> in agile
+            environments.
           </li>
           <li>
-            Consistently received
-            <span class="font-semibold">positive performance feedback</span>
-            for code quality, ownership, and attention to detail.
+            Strong collaborator with a focus on
+            <span class="font-semibold"
+              >clean code, code reviews, and mentoring</span
+            >.
           </li>
           <li>
-            Passionate about learning modern tools, UI/UX best practices, and
-            improving engineering workflows.
+            Passionate about leveraging
+            <span class="font-semibold"
+              >AI-driven development and modern tooling</span
+            >
+            to enhance productivity and innovation.
           </li>
         </ul>
       </div>

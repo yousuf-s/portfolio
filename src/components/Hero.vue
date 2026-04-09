@@ -22,7 +22,7 @@ import { ref, onMounted } from "vue";
 const typingText = ref("");
 const roles = [
   "Yousuf Syed",
-  "Front-End Developer",
+  "Full Stack Developer",
   "Vue.js Enthusiast",
   "Software Engineer",
 ];
