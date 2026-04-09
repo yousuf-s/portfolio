@@ -52,7 +52,6 @@
             </p>
             <li>Vue.js</li>
             <li>Nuxt.js</li>
-            <li>Nuxt.js</li>
             <li>Vuex</li>
             <li>Pinia</li>
             <li>Vuex</li>
